@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "ng-firestarter"
+  "defaultProject": "ng-firestarter",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
