@@ -5,6 +5,7 @@ import {MaterialModule} from './material/material.module';
 import {LayoutModule} from '@angular/cdk/layout';
 
 import { ShellComponent } from './shell/shell.component';
+import {RouterModule} from '@angular/router';
 
 const components = [
   ShellComponent
@@ -13,7 +14,8 @@ const components = [
 const modules = [
   CommonModule,
   MaterialModule,
-  LayoutModule
+  LayoutModule,
+  RouterModule
 ];
 
 @NgModule({
