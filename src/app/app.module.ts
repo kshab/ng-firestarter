@@ -10,6 +10,7 @@ import { environment } from '../environments/environment';
 
 import {AppRoutingModule} from './app-routing.module';
 import {SharedModule} from './shared/shared.module';
+import {UserModule} from './user/user.module';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -27,7 +28,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     SharedModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    UserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
