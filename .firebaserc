@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ng-firestarter-kshab": {
+      "hosting": {
+        "ng-firestarter": [
+          "ng-firestarter-kshab"
+        ]
+      }
+    }
+  }
+}
